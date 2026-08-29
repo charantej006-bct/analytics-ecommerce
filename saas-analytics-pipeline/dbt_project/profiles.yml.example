@@ -1,0 +1,11 @@
+saas_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: '../warehouse/saas_warehouse.duckdb'
+      threads: 4
+    ci:
+      type: duckdb
+      path: ':memory:'
+      threads: 2

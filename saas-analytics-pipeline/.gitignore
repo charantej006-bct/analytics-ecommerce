@@ -1,0 +1,26 @@
+# Python & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+env/
+venv/
+ENV/
+
+# DuckDB Database files
+*.duckdb
+*.duckdb.wal
+warehouse/*.duckdb
+
+# dbt artifacts & local logs
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+dbt_project/profiles.yml
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

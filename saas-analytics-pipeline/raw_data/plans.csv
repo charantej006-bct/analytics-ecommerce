@@ -1,0 +1,9 @@
+plan_id,plan_name,tier,monthly_price,billing_interval
+1,Free,0,0,monthly
+2,Starter,1,15,monthly
+3,Starter Annual,1,12,annual
+4,Pro,2,49,monthly
+5,Pro Annual,2,39,annual
+6,Business,3,149,monthly
+7,Business Annual,3,119,annual
+8,Enterprise,4,499,monthly
