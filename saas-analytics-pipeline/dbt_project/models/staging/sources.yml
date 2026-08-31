@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    description: "Raw simulated SaaS application and billing data"
+    tables:
+      - name: customers
+      - name: plans
+      - name: subscriptions
+      - name: subscription_events
+      - name: payments

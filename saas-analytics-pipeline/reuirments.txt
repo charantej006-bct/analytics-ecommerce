@@ -1,0 +1,8 @@
+# Data generation & simulation
+faker>=22.0.0
+numpy>=1.26.0
+pandas>=2.1.0
+
+# Database & Transformation Engine
+duckdb>=0.10.0
+dbt-duckdb>=1.7.0
